@@ -43,6 +43,12 @@ body {
 	text-align: center;
 }
 
+#menu li a:hover,
+#menu li a.selected {
+	background-color: #e56011;
+	color: white;
+}
+
 h1 {
 	font-size: x-large;
 	margin: 4em 0 1.5em 0;
