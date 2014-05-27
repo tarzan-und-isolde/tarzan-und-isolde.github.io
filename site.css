@@ -5,6 +5,8 @@ body {
 	font-size: 12pt;
 	padding: 2em;
 	min-width: 820px;
+	max-width: 1280px;
+	margin: 0 auto;
 }
 
 #banner {
