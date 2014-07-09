@@ -63,6 +63,14 @@ h1 {
 	min-height: 20em;
 }
 
+address {
+	font-style: normal;
+}
+
+#aktuell img {
+	border: 1px solid #AAA;
+}
+
 #footer {
 	margin-top: 4em;
 	padding-top: 0.5em;
