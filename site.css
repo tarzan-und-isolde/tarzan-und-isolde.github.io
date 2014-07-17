@@ -28,7 +28,7 @@ body {
 #menu li {
 	float: left;
 	list-style-type: none;
-	width: 25%;
+	width: 20%;
 }
 
 #menu li:first-child a {
@@ -61,6 +61,15 @@ h1 {
 	clear: left;
 	width: 65%;
 	min-height: 20em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 0;
+	margin-bottom: 2em;
 }
 
 address {
