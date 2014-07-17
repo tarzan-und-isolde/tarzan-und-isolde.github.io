@@ -6,11 +6,17 @@ $(document).ready(function() {
 		$(elem.attr('href')).show();
 		$('#menu a').removeClass('selected');
 		elem.addClass('selected');
+		window.location.hash = elem.attr('href');
 		ev.preventDefault();
 	});
 
 	$('.content').hide();
 	$('.content:first').show();
 	$('#menu a:first').addClass('selected');
+
+	var hash = window.location.hash;
+	if (hash) {
+		$('a[href=' + hash +']').click();
+	}
 
 });
