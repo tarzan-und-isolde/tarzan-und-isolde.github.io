@@ -11,8 +11,10 @@ ul li {
   font-size: 15px;
   line-height: 2;
 }
-p.large {
-  font-size: 17px;
+p.important {
+  color: #e32223;
+  font-weight: bold;
+  padding-top: 20px;
 }
 .img-border {
   border: 5px solid #f3e500;
